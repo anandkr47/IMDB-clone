@@ -1,0 +1,89 @@
+
+  @keyframes gradient {
+    0%{background-position:0% 50%}
+    100%{background-position:100% 100%}
+  }
+*{
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    transition: all 0.6s ease;
+}
+.navbar-dark .nav-item .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-dark .nav-item .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    border-radius: 0.25rem;
+    color: #fff;
+  }
+  .carousel .item{
+   height: 100px;
+  }
+  .item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100px;
+  }
+  
+  .fa-li {
+    position: relative;
+    left: 0;
+  }
+.column{
+   
+    flex:20%;
+    padding:5px;
+}
+.row{
+    padding: 3px;
+    display:flex;
+}
+.recomended{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(14, 13, 13);
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    transition: all 0.6s ease;
+}
+.recomended h1{
+    color: #ffd000;
+
+}
+.toprated{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(14, 13, 13);
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    transition: all 0.6s ease;
+}
+.toprated h1{
+    color: #ffd000;
+}
+.card:hover{
+    box-shadow: rgba(238, 241, 6, 0.575) -10px 10px, rgba(255, 221, 28, 0.89) -20px 20px ;
+}
+.card-body{
+    background-color:rgba(0, 0, 0, 0.726)
+    
+    
+}
+ h5 {
+  color: #fff;
+ }
+p{
+  color:#fff
+}
+:any-link{
+  color: #fff;
+  text-decoration: none;
+}
+.footer{
+  width: 100%;
+  padding: 5px;
+    background-color: rgb(14, 13, 13);
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    transition: all 0.6s ease;
+}
